@@ -15,5 +15,13 @@ public class ProbarFuncion {
         } catch (ClassNotFoundException e) {
             System.out.println(e.toString());
         }
+
+        try {
+            System.out.println("Nombre del producto " + aF1.probarFuncionConParametro(10));
+        } catch (SQLException e) {
+            System.out.println(e.toString());
+        } catch (ClassNotFoundException e) {
+            System.out.println(e.toString());
+        }
     }
 }
